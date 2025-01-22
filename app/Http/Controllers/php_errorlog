@@ -1,0 +1,49 @@
+[21-Dec-2023 09:36:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 33
+[22-Dec-2023 16:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 20
+[22-Dec-2023 16:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 21
+[22-Dec-2023 16:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 21
+[22-Dec-2023 16:16:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 21
+[22-Dec-2023 16:16:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 21
+[22-Dec-2023 16:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 22
+[09-Jan-2024 14:25:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 56
+[09-Jan-2024 14:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 56
+[09-Jan-2024 14:41:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 56
+[10-Jan-2024 09:12:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 42
+[10-Jan-2024 09:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 43
+[10-Jan-2024 09:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fit.kulture.es/public_html/app/candidatos/controllers/controller_productividad_2.php on line 43

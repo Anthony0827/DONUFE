@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('fonts/Lato-Regular.eot');
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Regular.woff2') format('woff2'), url('fonts/Lato-Regular.woff') format('woff'), url('fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('fonts/Lato-Heavy.eot');
+    src: url('fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Heavy.woff2') format('woff2'), url('fonts/Lato-Heavy.woff') format('woff'), url('fonts/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'LatoLight';
+    src: url('fonts/Lato-Light.eot');
+    src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'LatoLightItalic';
+    src: url('fonts/Lato-LightItalic.eot');
+    src: url('fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), format('woff'), url('fonts/Lato-LightItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+@-ms-viewport {
+    width: device-width
+}
+@viewport {
+    width: device-width
+}
+:root {
+    --rojo: #E50914;
+    --fondo: #2b2b2b;
+    --gris: #c6c5c5;
+    --naranja: #f07429;
+}
+html, body, input, button, select, textarea, table {
+    font-family: LatoWeb, Open Sans, "system-ui", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+    color: #000;
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+html, body, .header-image {
+    height: 100%;
+}
+h1, h2, h3, h4 {
+    font-family: 'LatoWebHeavy';
+    color: #000;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0
+}
+body {
+	background: initial;
+	padding-top: initial;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.background_init {
+    background: url(../jcapImg/background_init.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.9;
+}
+.container-img-radio{
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+.navbar-brand > img { margin-top: -15px; width: 100px; }
+.headline { bottom: 100px;}
+.checkbox{margin-left: 20px !important; margin-top: -10px !important; margin-bottom: 10px !important; }
+.iconEyePassw{border-radius: 0px 4px 4px 0px; top: 0px;}
+.navbar-inverse {
+	border: 0px solid transparent;
+	background: content-box;
+	margin-top: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 10pt;
+    color: var(--naranja);
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    background-color: transparent;
+    padding: 5px;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+    color: #FF0000;
+    text-decoration: underline;
+    text-shadow: 0.1em 0.1em 0.10em #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+.fondo-blanco {
+    background-color: #fff;
+}
+.featurette-heading {
+    color: #fff;
+    text-shadow:0 2px 5px rgba(0,0,0,.9), 0 0 8px rgba(216, 44, 0,.6);
+}
+.btn-naranja {
+	color: #fff; 
+	background-color: #f96800;
+	border-color: #ff3401;
+}
+.btn-naranja:hover {
+	color: #fff; 
+	background-color: #FF0000;
+	border-color: #d82c00;
+}
+.text-blanco {
+	color: #fff;
+	text-shadow: 0 2px 5px rgba(0,0,0,.9), 0 0 8px rgba(216, 44, 0,.6);
+}
+.text-blanco:hover {
+	color: #f96800 !important;
+	text-shadow: 0 2px 5px rgb(255 255 255 / 90%), 0 0 8px rgb(255 255 255 / 60%);
+}
+.text-naranja {
+    color: var(--naranja);
+}
+.form-control {
+	background-color: #fff;
+	border-color: #d82c00;
+}
+.form-control:focus{
+	border-color: #d82c00;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(216, 44, 0,.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(216, 44, 0,.6);
+}
+@media (max-width: 375px) {
+	#login {
+		margin-top: 100px;
+	}
+	.featurette-divider {
+	    margin: 10px 0;
+	}
+}
+footer {
+	/*bottom: 0px;*/
+	position: absolute;
+	margin: 0 0 1% 25%;
+    color: #fff;
+    text-align: center;
+	text-shadow: 0 2px 5px rgba(0,0,0,.9), 0 0 8px rgba(216, 44, 0,.6);
+	width: 40%;
+}
+.featurette { overflow: hidden; }
+.featurette-image.pull-left { margin-right: 40px; }
+.featurette-image.pull-right { margin-left: 40px; }
+.featurette-heading { font-size: 50px; }
+.featurette-divider { margin: 80px 0; }
+@media(max-width:1200px) { 
+	.headline h1 { font-size: 60px; }
+    .headline h2 { font-size: 26px; }
+    .featurette-divider { margin: 50px 0; }
+    .featurette-image.pull-left { margin-right: 20px; }
+    .featurette-image.pull-right { margin-left: 20px; }
+    .featurette-heading { font-size: 35px; }
+}
+@media(max-width:991px) { 
+	.headline h1 { font-size: 46px; }
+    .headline h2 { font-size: 20px; }
+    .featurette-divider { margin: 40px 0; }
+    /* .featurette-image { max-width: 50%; } */
+    .featurette-image.pull-left { margin-right: 10px; }
+    .featurette-image.pull-right { margin-left: 10px; }
+    .featurette-heading { font-size: 30px; }
+}
+@media(max-width:768px) { 
+	.container { margin: 0 15px; }
+    .featurette-image { margin-right: auto;
+        margin-left: auto; }
+    .featurette-divider { margin: 40px 0; }
+    .featurette-heading { font-size: 25px; }
+}
+@media(max-width:668px) { 
+	.headline h1 { font-size: 25px; }
+    .headline h2 { font-size: 15px; }
+    .featurette-divider { margin: 30px 0; }
+}
+@media(max-width:640px) { .headline { bottom: 20px; }}
+@media(max-width:375px) { 
+	.featurette-divider { margin: 10px 0; }
+    .featurette-image { max-width: 100%; }
+    .featurette-image.pull-left { margin-right: 0;
+        margin-bottom: 10px; }
+    .featurette-image.pull-right { margin-bottom: 10px;
+        margin-left: 0; }
+}
